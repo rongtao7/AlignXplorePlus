@@ -13,9 +13,11 @@
 
 </div>
 
-## :sparkles: Introduction
+## 1. Introduction
 
 <strong>AlignXplore+</strong> is a framework for transferable personalization in large language models. Building upon AlignXplore, it represents a substantial evolution of the approach by advancing a central idea: natural language can serve as a universal, model- and task-agnostic interface for expressing fine-grained and multi-dimensional user preferences.
+
+## 2. Key Features
 
 
 

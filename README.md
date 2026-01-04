@@ -13,15 +13,15 @@
 
 </div>
 
-## 1.  Introduction
+## Introduction
 
 <strong>AlignXplore+</strong> is a framework for transferable personalization in large language models. Building upon AlignXplore, it represents a substantial evolution of the approach by advancing a central idea: natural language can serve as a universal, model- and task-agnostic interface for expressing fine-grained and multi-dimensional user preferences.
 
-## 2.  Key Features
+## Key Features
 
 - <strong> General-Purpose </strong>: AlignXplore+ operates in more realistic, real-world scenario, demonstrating that high-quality user preference summaries can be inferred from heterogeneous sources, including social networks, e-commerce platforms, and news streams.
 - <strong> Transferable </strong>: Preference summaries inferred by AlignXplore+ demonstrate strong transferability across both tasks (e.g., from response selection to news recommendation) and models (e.g., from GPT-OSS-20B to Qwen2.5-7B-Instruct).
-- <strong> Robust </strong>: Inherited from AlignXplore, AlignXplore+ supports preference reasoning from streaming inputs and maintains stable performance under noisy or imperfect signals, ensuring reliable personalization in realistic, dynamic settings.
+- <strong> Streaming & Robust </strong>: Inherited from AlignXplore, AlignXplore+ supports preference reasoning from streaming inputs and maintains stable performance under noisy or imperfect signals, ensuring reliable personalization in realistic, dynamic settings.
 
 <div align="center">
 <table border="0" cellpadding="0" cellspacing="0">

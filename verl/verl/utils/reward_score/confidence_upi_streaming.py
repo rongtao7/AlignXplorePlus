@@ -148,13 +148,6 @@ def compute_score(solution_str, ground_truth=None, data_source=None, extra_info=
 
     if not format_score(solution_str):
         # formatting score
-        with open("/ossfs/workspace/error_prompts.txt", "a+") as f:
-            f.write("++++Prompt++++\n")
-            f.write(extra_info["current_prompt"] + "\n")
-            f.write("*" * 40 + "\n")
-            f.write(solution_str + "\n")
-        # breakpoint()
-
         return {
             "score": 0.0,
             "format_socre": -1.0,

@@ -21,7 +21,7 @@
 
 ## ✨ Key Features
 
-- <strong> General-Purpose </strong>: AlignXplore+ operates in more realistic, real-world scenario, demonstrating that high-quality user preference summaries can be inferred from heterogeneous sources, including social networks, e-commerce platforms, and news streams.
+- <strong> General-Purpose </strong>: AlignXplore+ operates in a more realistic, real-world scenario, demonstrating that high-quality user preference summaries can be inferred from heterogeneous sources, including social networks, e-commerce platforms, and news streams.
 - <strong> Transferable </strong>: Preference summaries inferred by AlignXplore+ demonstrate strong transferability across both tasks (e.g., from response selection to news recommendation) and models (e.g., from GPT-OSS-20B to Qwen2.5-7B-Instruct).
 - <strong> Streaming & Robust </strong>: Inherited from AlignXplore, AlignXplore+ supports preference reasoning from streaming inputs and maintains stable performance under noisy or imperfect signals, ensuring reliable personalization in realistic, dynamic settings.
 

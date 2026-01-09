@@ -5,7 +5,7 @@
   <p>Text as a Universal Interface for Personalizing Large Language Models</p>
 
   
-  [![arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2505.18071)
+  [![arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2601.04963)
 [![🤗 HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-SFT%20Data-yellow)](https://huggingface.co/datasets/VanillaH1/AlignXplorePlus-SFT)
 [![🤗 HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-RL%20Data-yellow)](https://huggingface.co/datasets/VanillaH1/AlignXplorePlus-RL)
 [![🤗 HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Eval%20Data-yellow)](https://huggingface.co/datasets/VanillaH1/AlignXplorePlus-Benchmark)
@@ -44,7 +44,7 @@
 
 ### Main Results
 
-Main results across nine benchmarks. (P-Soups are split into three preference dimensions: expertise, informativeness, and style.) We compare models in three settings: direct sequence modeling, full-history preference inference, and streaming preference inference. All preference inference models (both full-history and streaming) use the Qwen3-8B-non-thinking as the downstream model. Within each setting, **Bold** and <u>Underline</u> mark the best and second-best results among models at the $\sim$ 8B scale. <span style="color:gray;">Gray</span> score highlights models that are outperformed by the best-performing $\sim$ 8B model in the same column, including direct sequence models and larger preference inference models that do not show a performance advantage.
+We present our main results across nine benchmarks. (P-Soups are split into three preference dimensions: expertise, informativeness, and style.) We compare models in three settings: direct sequence modeling, full-history preference inference, and streaming preference inference. All preference inference models (both full-history and streaming) use the Qwen3-8B-non-thinking as the downstream model. Within each setting, **Bold** and <u>Underline</u> mark the best and second-best results among models at the $\sim$ 8B scale. <span style="color:gray;">Gray</span> score highlights models that are outperformed by the best-performing $\sim$ 8B model in the same column, including direct sequence models and larger preference inference models that do not show a performance advantage.
 
 <table style="border-collapse:collapse; width:100%; text-align:center;">
   <thead>
@@ -381,9 +381,9 @@ bash evaluation.sh
 ## ✒️ Citation
 
 ```bibtex
-@article{xxxxx,
-  title={},
-  author={xxxxx},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2024}
+@article{liu2026text,
+  title={Text as a Universal Interface for Transferable Personalization},
+  author={Yuting Liu, Jian Guan, Jia-Nan Li, Wei Wu, Jiang-Ming Yang, Jianzhe Zhao, Guibing Guo},
+  journal={arXiv preprint arXiv:2601.04963},
+  year={2026}
 ```
